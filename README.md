@@ -1,6 +1,6 @@
 # Machine Learning from scratch
 
-implementation by `@shreydan`
+implementation by `@shreydan` & a lil bit of help 🤫️
 
 #### To run:
 
@@ -11,15 +11,12 @@ implementation by `@shreydan`
 ### Resources:
 
 - Machine Learning course: Andrew Ng
-- madewithml.com
+- [Goku Mohandas](madewithml.com)
+- [Aladdin Persson](https://www.youtube.com/c/AladdinPersson)
 
 ## MODELS:
 
 - **REGRESSION**
-    - **Linear Regression**
-        - Univariate
-        - Multivariate
-        - Gradient Descent
-        - Normal Equation
-        - Mean Normalization
-        - Standardization
+  - **Linear Regression**
+    - Univariate
+    - Multivariate
