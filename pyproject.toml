@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ml_from_scratch"
+version = "0.1.0"
+description = "machine learning models from scratch"
+authors = ["shreydan <iamshreydan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.22.2"
+pandas = "^1.4.1"
+matplotlib = "^3.5.1"
+scikit-learn = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
