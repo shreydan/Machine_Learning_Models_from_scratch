@@ -13,6 +13,7 @@ scikit-learn = "^1.0.2"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"
+jupyter = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
