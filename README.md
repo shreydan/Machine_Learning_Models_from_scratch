@@ -13,7 +13,7 @@ implementation by `@shreydan` & a lil bit of help 🤫️
 ### Resources:
 
 - Machine Learning course: Andrew Ng
-- [Goku Mohandas](https://madewithml.com)
+- [MadewithML](https://madewithml.com)
 - [Aladdin Persson](https://www.youtube.com/c/AladdinPersson)
 
 ## MODELS:
@@ -28,3 +28,5 @@ implementation by `@shreydan` & a lil bit of help 🤫️
 
   - **Logistic Regression**
     - Binary classifier
+  - **K-Nearest-Neighbors**
+    - multiclass classifier
