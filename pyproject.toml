@@ -1,20 +1,23 @@
 [tool.poetry]
-name = "ml_from_scratch"
+name = "ml-from-scratch"
 version = "0.1.0"
 description = "machine learning models from scratch"
 authors = ["shreydan <iamshreydan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ml_from_scratch"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-numpy = "^1.22.2"
-pandas = "^1.4.1"
-matplotlib = "^3.5.1"
-scikit-learn = "^1.0.2"
+python = "^3.10"
+numpy = "^1.24.2"
+pandas = "^2.0.0"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
 
-[tool.poetry.dev-dependencies]
-black = "^22.1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
 jupyter = "^1.0.0"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
